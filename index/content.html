@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title> Home Page</title>
+  <!-- custom css-->
+  <link rel="stylesheet" href="styling.css">
+  <script src="../app.js" defer></script>
+  <script src="../data_json.js"></script>
+</head>
+
+<body>
+  <!-- nav bar-->
+  <div id="hide-bar" class="hidden">
+    <div id="side-bar">
+      <div id="bar-center">
+        <a href="content.html" class="side-gallery">Gallery</a>
+        <a href="../Artists/index.html" class="side-artists">Artists</a>
+        <a href="../About us/index.html" class="side-help">About</a>
+        <a href="../Cart/index.html" class="cart-button">Cart</a>
+        <a href="../Sign Up/index.html" class="side-signup">Signup</a>
+        <a href="../Log In/index.html" class="side-login">Login</a>
+      </div>
+    </div>
+    <div id="side-overlay"></div>
+  </div>
+  <nav class="navigation">
+    <nav class="nav-center">
+      <a href="content.html">
+        <img src="../images/logo.png" alt="">
+      </a>
+      <ul>
+        <li><a href="content.html">Gallery</a></li>
+        <li><a href="../Artists/index.html">Artists</a></li>
+        <li><a href="../About us/index.html">About</a></li>
+        <li class='cart-button'><a href="../Cart/index.html">Cart</a></li>
+        <li id="sep"></li>
+        <li><a href="../Sign Up/index.html">Sign Up</a></li>
+        <li><a href="../Log In/index.html">Login</a></li>
+      </ul>
+      <div id="drop-bar">
+        <div class="hover"></div>
+        <img src="../images/arts/icon/drop.jpg">
+      </div>
+      </div>
+    </nav>
+  </nav>
+  <!-- end of nav bar-->
+
+  <section class="gallery">
+    <div class="gallery-center">
+    </div>
+  </section>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const ui = new UI();
+      const artists = new Artists();
+      artists.getArtists().then(artists => {
+        ui.displayGallery(artists);
+        ui.getArt(artists);
+      });
+    })
+  </script>
+
+  <footer class="footer">
+  </footer>
+</body>
+
+</html>
