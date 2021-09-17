@@ -1,0 +1,157 @@
+.main {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+/* main */
+.art_center {
+  margin-top: 2rem;
+  width: 65vw;
+}
+
+/* container */
+.art_container {
+  margin-top: 0.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Left side */
+.left_art {
+  width: 55%;
+}
+#normal_view img {
+  width: 100%;
+}
+#modal_view {
+  width: 100vw;
+  height: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* End Left side */
+
+/* right side */
+.right_art {
+  width: 40%;
+}
+
+/* Print options */
+.print_options h2 {
+  border-bottom: 1px solid black;
+}
+
+.option {
+  display: flex;
+}
+
+.option a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+  text-align: justify;
+  width: 65%;
+}
+.option a:hover {
+  background-color: grey;
+}
+.option a.active {
+  background-color: rgb(112, 196, 252);
+}
+.price {
+  width: 35%;
+}
+.price p {
+  text-align: right;
+  padding: 1rem;
+}
+/* End print options */
+
+.hidden {
+  display: none;
+}
+
+#cart_button {
+  margin: 1rem 0;
+  width: 100%;
+  height: 50px;
+  transition-duration: 0.4s;
+  background-color: grey;
+  border: unset;
+}
+#cart_button:hover {
+  background-color: rgb(112, 196, 252);
+}
+
+/* From the artist */
+.artist_info {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.artist_info h3 {
+  border-bottom: 1px solid black;
+}
+.artist_info p {
+  padding-top: 0.5rem;
+  width: 100%;
+}
+.artist_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.artist_container a {
+  width: 50%;
+  padding: 1rem;
+}
+
+.artist_container img {
+  width: 100%;
+  border-radius: 50%;
+}
+.artist_profile {
+  width: 100%;
+  padding-right: 1rem;
+}
+.artist_profile p {
+  padding: 0;
+}
+/* End From the artist */
+
+/* Product description */
+.description {
+  margin-top: 1rem;
+}
+.description h3 {
+  border-bottom: 1px solid black;
+}
+.description p {
+  margin-top: 0.5rem;
+}
+
+/* Sharing */
+.share {
+  margin-top: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .art_container {
+    flex-direction: column;
+  }
+  .left_art {
+    width: 100%;
+  }
+  .right_art {
+    width: 100%;
+  }
+  .right_art h2 {
+    margin-top: 1rem;
+  }
+}

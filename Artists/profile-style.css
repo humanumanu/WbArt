@@ -1,0 +1,97 @@
+.main {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.artist_header {
+  width: 65vw;
+  height: 100px;
+  overflow: hidden;
+}
+.artist_header img {
+  width: 100%;
+}
+.center_part {
+  margin-top: 1rem;
+  width: 65vw;
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+.right_sec {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.profileimage img {
+  width: 200px;
+  border-radius: 200px;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social img {
+  width: 40px;
+  padding-top: 20px;
+  padding-right: 10px;
+}
+
+#introduction {
+  width: 100%;
+  max-height: 100px;
+  padding: 1rem 0;
+}
+
+.artprint h3 {
+  padding-bottom: 5px;
+  border-bottom: 3px solid black;
+  font-size: 20px;
+}
+.all_works {
+  width: 100%;
+  max-width: 1000px;
+  padding-top: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0.5rem;
+}
+.work_container {
+  position: relative;
+  overflow: hidden;
+}
+.work_container img {
+  width: 100%;
+}
+.work_container a .work_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1000px) {
+  .center_part {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .left_sec {
+    width: 100%;
+  }
+  .right_sec {
+    width: 100%;
+  }
+}

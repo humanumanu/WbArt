@@ -1,0 +1,365 @@
+{
+"arts": 
+[
+    {
+        "sys": { "art_id": "1" },
+        "fields": {
+            "title": "An Art",
+            "artist_id": "1",
+            "printOptions":
+            [
+                {
+                    "type": "acrylic",
+                    "price": "0",
+                    "preview":"dummy_print.jpg"
+                },
+                {
+                    "type": "art_card",
+                    "price": "0",
+                    "preview":"dummy_card.jpg"   
+                },
+                {
+                    "type": "canvas",
+                    "price": "0",
+                    "preview":"dummy_print.jpg"
+                },
+                {
+                    "type": "black_framed",
+                    "price": "0",
+                    "preview":"black_frame.jpg"
+                },
+                {
+                    "type": "white_framed",
+                    "price": "0",
+                    "preview":"white_frame.jpg"
+                }
+            ],
+            "img_link":"dummy.jpg"
+        }
+    },
+    {
+        "sys": { "art_id": "2" },
+        "fields": {
+            "title": "An Art 2",
+            "artist_id": "1",
+            "printOptions":
+            [
+                {
+                    "type": "acrylic",
+                    "price": "0",
+                    "preview":"dummy_print.jpg"
+                },
+                {
+                    "type": "art_card",
+                    "price": "0",
+                    "preview":"dummy_card.jpg"   
+                },
+                {
+                    "type": "canvas",
+                    "price": "0",
+                    "preview":"dummy_print.jpg"
+                },
+                {
+                    "type": "black_framed",
+                    "price": "0",
+                    "preview":"black_frame.jpg"
+                },
+                {
+                    "type": "white_framed",
+                    "price": "0",
+                    "preview":"white_frame.jpg"
+                }
+            ],
+            "img_link":"dummy.jpg"
+        }
+    },
+    {
+        "sys": { "art_id": "3" },
+        "fields": {
+            "title": "An Art",
+            "artist_id": "2",
+            "printOptions":
+            [
+                {
+                    "type": "acrylic",
+                    "price": "0",
+                    "preview":"dummy_print.jpg"
+                },
+                {
+                    "type": "art_card",
+                    "price": "0",
+                    "preview":"dummy_card.jpg"   
+                },
+                {
+                    "type": "canvas",
+                    "price": "0",
+                    "preview":"dummy_print.jpg"
+                },
+                {
+                    "type": "black_framed",
+                    "price": "0",
+                    "preview":"black_frame.jpg"
+                },
+                {
+                    "type": "white_framed",
+                    "price": "0",
+                    "preview":"white_frame.jpg"
+                }
+            ],
+            "img_link":"dummy.jpg"
+        }
+    },
+    {
+        "sys": { "art_id": "4" },
+        "fields": {
+            "title": "An Art 2",
+            "artist_id": "2",
+            "printOptions":
+            [
+                {
+                    "type": "acrylic",
+                    "price": "0",
+                    "preview":"dummy_print.jpg"
+                },
+                {
+                    "type": "art_card",
+                    "price": "0",
+                    "preview":"dummy_card.jpg"   
+                },
+                {
+                    "type": "canvas",
+                    "price": "0",
+                    "preview":"dummy_print.jpg"
+                },
+                {
+                    "type": "black_framed",
+                    "price": "0",
+                    "preview":"black_frame.jpg"
+                },
+                {
+                    "type": "white_framed",
+                    "price": "0",
+                    "preview":"white_frame.jpg"
+                }
+            ],
+            "img_link":"dummy.jpg"
+        }
+    },
+    {
+        "sys": { "art_id": "5" },
+        "fields": {
+            "title": "An Art",
+            "artist_id": "3",
+            "printOptions":
+            [
+                {
+                    "type": "acrylic",
+                    "price": "0",
+                    "preview":"dummy_print.jpg"
+                },
+                {
+                    "type": "art_card",
+                    "price": "0",
+                    "preview":"dummy_card.jpg"   
+                },
+                {
+                    "type": "canvas",
+                    "price": "0",
+                    "preview":"dummy_print.jpg"
+                },
+                {
+                    "type": "black_framed",
+                    "price": "0",
+                    "preview":"black_frame.jpg"
+                },
+                {
+                    "type": "white_framed",
+                    "price": "0",
+                    "preview":"white_frame.jpg"
+                }
+            ],
+            "img_link":"dummy.jpg"
+        }
+    },
+    {
+        "sys": { "art_id": "6" },
+        "fields": {
+            "title": "An Art 5",
+            "artist_id": "2",
+            "printOptions":
+            [
+                {
+                    "type": "acrylic",
+                    "price": "0",
+                    "preview":"dummy_print.jpg"
+                },
+                {
+                    "type": "art_card",
+                    "price": "0",
+                    "preview":"dummy_card.jpg"   
+                },
+                {
+                    "type": "canvas",
+                    "price": "0",
+                    "preview":"dummy_print.jpg"
+                },
+                {
+                    "type": "black_framed",
+                    "price": "0",
+                    "preview":"black_frame.jpg"
+                },
+                {
+                    "type": "white_framed",
+                    "price": "0",
+                    "preview":"white_frame.jpg"
+                }
+            ],
+            "img_link":"dummy.jpg"
+        }
+    },
+    {
+        "sys": { "art_id": "7" },
+        "fields": {
+            "title": "An Art 6",
+            "artist_id": "1",
+            "printOptions":
+            [
+                {
+                    "type": "acrylic",
+                    "price": "0",
+                    "preview":"dummy_print.jpg"
+                },
+                {
+                    "type": "art_card",
+                    "price": "0",
+                    "preview":"dummy_card.jpg"   
+                },
+                {
+                    "type": "canvas",
+                    "price": "0",
+                    "preview":"dummy_print.jpg"
+                },
+                {
+                    "type": "black_framed",
+                    "price": "0",
+                    "preview":"black_frame.jpg"
+                },
+                {
+                    "type": "white_framed",
+                    "price": "0",
+                    "preview":"white_frame.jpg"
+                }
+            ],
+            "img_link":"dummy.jpg"
+        }
+    },
+    {
+        "sys": { "art_id": "8" },
+        "fields": {
+            "title": "Toasted",
+            "artist_id": "4",
+            "printOptions":
+            [
+                {
+                    "type": "acrylic",
+                    "price": "0",
+                    "preview":"hoang_print.jpg"
+                },
+                {
+                    "type": "art_card",
+                    "price": "0",
+                    "preview":"hoang_card.jpg"   
+                },
+                {
+                    "type": "canvas",
+                    "price": "0",
+                    "preview":"hoang_print.jpg"
+                },
+                {
+                    "type": "black_framed",
+                    "price": "0",
+                    "preview":"hoang_frame2.jpg"
+                },
+                {
+                    "type": "white_framed",
+                    "price": "0",
+                    "preview":"hoang_frame1.jpg"
+                }
+            ],
+            "img_link":"hoang.jpg"
+        }
+    },
+        {
+        "sys": { "art_id": "9" },
+        "fields": {
+            "title": "An Art",
+            "artist_id": "3",
+            "printOptions":
+            [
+                {
+                    "type": "acrylic",
+                    "price": "0",
+                    "preview":"dummy_print.jpg"
+                },
+                {
+                    "type": "art_card",
+                    "price": "0",
+                    "preview":"dummy_card.jpg"   
+                },
+                {
+                    "type": "canvas",
+                    "price": "0",
+                    "preview":"dummy_print.jpg"
+                },
+                {
+                    "type": "black_framed",
+                    "price": "0",
+                    "preview":"black_frame.jpg"
+                },
+                {
+                    "type": "white_framed",
+                    "price": "0",
+                    "preview":"white_frame.jpg"
+                }
+            ],
+            "img_link":"dummy.jpg"
+        }
+    },
+        {
+        "sys": { "art_id": "10" },
+        "fields": {
+            "title": "An Art",
+            "artist_id": "3",
+            "printOptions":
+            [
+                {
+                    "type": "acrylic",
+                    "price": "0",
+                    "preview":"dummy_print.jpg"
+                },
+                {
+                    "type": "art_card",
+                    "price": "0",
+                    "preview":"dummy_card.jpg"   
+                },
+                {
+                    "type": "canvas",
+                    "price": "0",
+                    "preview":"dummy_print.jpg"
+                },
+                {
+                    "type": "black_framed",
+                    "price": "0",
+                    "preview":"black_frame.jpg"
+                },
+                {
+                    "type": "white_framed",
+                    "price": "0",
+                    "preview":"white_frame.jpg"
+                }
+            ],
+            "img_link":"dummy.jpg"
+        }
+    }
+]
+}

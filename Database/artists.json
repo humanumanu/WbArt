@@ -1,0 +1,90 @@
+{
+    "artists": [
+        {
+            "sys": {"id": "1"},
+            "fields": 
+            {
+                "name": "Artist A", 
+                "pic": "../images/artists/dummy.jpg",
+                "desc": "", 
+                "fb": "#", 
+                "insta": "#", 
+                "twitter":"#",
+                "works": [
+                    {"art_id": "1", "img_link": "../images/products/dummy.jpg"},
+                    {"art_id": "2", "img_link": "../images/products/dummy.jpg"},
+                    {"art_id": "7", "img_link": "../images/products/dummy.jpg"},
+                    {"art_id": "7", "img_link": "../images/products/dummy.jpg"},
+                    {"art_id": "7", "img_link": "../images/products/dummy.jpg"}
+                ]
+            }
+        },
+        {"sys": {"id": "2"},
+            "fields": 
+            {
+                "name": "Hoang", 
+                "pic": "../images/artists/dummy.jpg",
+                "desc": "", 
+                "fb": "#", 
+                "insta": "#", 
+                "twitter":"#",
+                "works": [
+                    {"art_id": "8", "img_link": "../images/products/hoang.jpg"},
+                    {"art_id": "9", "img_link": "../images/products/hoang.jpg"},
+                    {"art_id": "10", "img_link": "../images/products/hoang.jpg"}
+                ]
+            }
+        },
+        {
+            "sys": {"id": "3"},
+            "fields": 
+            {
+                "name": "Artist B", 
+                "pic": "../images/artists/dummy.jpg",
+                "desc": "", 
+                "fb": "#", 
+                "insta": "#", 
+                "twitter":"#",
+                "works": [
+                    {"art_id": "3", "img_link": "../images/products/dummy.jpg"},
+                    {"art_id": "4", "img_link": "../images/products/dummy.jpg"},
+                    {"art_id": "6", "img_link": "../images/products/dummy.jpg"}
+                ]
+            }
+        },
+        {
+            "sys": {"id": "4"},
+            "fields": 
+            {
+                "name": "Artist C", 
+                "pic": "../images/artists/dummy.jpg",
+                "desc": "", 
+                "fb": "#", 
+                "insta": "#", 
+                "twitter":"#",
+                "works": [
+                    {"art_id": "5", "img_link": "../images/products/dummy.jpg"},
+                    {"art_id": "9", "img_link": "../images/products/dummy.jpg"},
+                    {"art_id": "10", "img_link": "../images/products/dummy.jpg"}
+                ]
+            }
+        },
+        {
+            "sys": {"id": "5"},
+            "fields": 
+            {
+                "name": "Artist D", 
+                "pic": "../images/artists/dummy.jpg",
+                "desc": "", 
+                "fb": "#", 
+                "insta": "#", 
+                "twitter":"#",
+                "works": [
+                    {"art_id": "5", "img_link": "../images/products/dummy.jpg"},
+                    {"art_id": "9", "img_link": "../images/products/dummy.jpg"},
+                    {"art_id": "10", "img_link": "../images/products/dummy.jpg"}
+                ]
+            }
+        }
+    ]
+}

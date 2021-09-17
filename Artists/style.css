@@ -1,0 +1,81 @@
+.artists {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#header {
+  width: 60vw;
+  font-weight: bold;
+  font-family: Verdana;
+}
+
+#header h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+
+.artists-main {
+  margin-top: 1rem;
+  width: 60vw;
+  max-width: 1170px;
+}
+
+.artists-center {
+  margin-bottom: 4rem;
+}
+
+#profile {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+#profile img {
+  height: 100%;
+  border-radius: 50px;
+}
+
+#profile p {
+  width: 40%;
+  font-weight: bold;
+  color: solid black;
+  font-family: Verdana;
+  position: relative;
+  left: -10;
+  background-color: rgb(206, 206, 206);
+  border-radius: 10px;
+  text-align: center;
+  padding: 0.25rem 1rem;
+  z-index: -1;
+}
+
+#gallery {
+  width: 100%;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 2rem;
+}
+
+.art-container {
+  position: relative;
+  overflow: hidden;
+}
+.art-container img {
+  width: 100%;
+}
+
+.art-container a .work_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

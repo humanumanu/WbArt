@@ -1,0 +1,82 @@
+<!DOCTYPE hmtl>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> INPRINT </title>
+    <link rel="stylesheet" href="profile-style.css" />
+    <link rel="stylesheet" href="../index/styling.css" />
+    <script src="../app.js" defer></script>
+    <script src="../data_json.js"></script>
+</head>
+
+<body>
+<!-- nav bar-->
+<div id="hide-bar" class="hidden">
+    <div id="side-bar">
+        <div id="bar-center" class="hidden">
+            <a href="../index/content.html" class="side-gallery">Gallery</a>
+            <a href="../Artists/index.html" class="side-artists">Artists</a>
+            <a href="../About us/index.html" class="side-help">About</a>
+            <a href="../Cart/index.html" class="cart-button">Cart</a>
+            <a href="../Sign Up/index.html" class="side-signup">Signup</a>
+            <a href="../Log In/index.html" class="side-login">Login</a>
+        </div>
+    </div>
+    <div id="side-overlay"></div>
+</div>
+<nav class="navigation">
+    <nav class="nav-center">
+        <a href="../index/content.html">
+            <img src="../images/logo.png" alt="">
+        </a>
+        <ul>
+            <li><a href="../index/content.html">Gallery</a></li>
+            <li><a href="../Artists/index.html">Artists</a></li>
+            <li><a href="../About us/index.html">About</a></li>
+            <li class='cart-button'><a href="../Cart/index.html">Cart</a></li>
+            <li id="sep"></li>
+            <li><a href="../Sign Up/index.html">Sign Up</a></li>
+            <li><a href="../Log In/index.html">Login</a></li>
+        </ul>
+        <div id="drop-bar">
+            <div class="hover"></div>
+            <img src="../images/arts/icon/drop.jpg">
+        </div>
+        </div>
+    </nav>
+</nav>
+<!-- end of nav bar-->
+
+    <section class="main">
+        <section class="profile">
+        </section>
+    </section>
+    <footer class="footer">
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const ui = new UI();
+            let artists = new Artists()
+            let artist = sessionStorage.getItem("selected_profile");
+            if (artist == null) {
+                artist = data
+                artist = artist.map(item => {
+                    const artist_id = item.sys.id;
+                    const { name } = item.fields;
+                    const { pic } = item.fields;
+                    const { works } = item.fields;
+                    const { desc, fb, insta, twitter } = item.fields;
+                    return { artist_id, name, pic, desc, fb, insta, twitter, works }
+                })
+                ui.displayProfile(artist[0]);
+            }
+            else {
+                artist = JSON.parse(artist)
+                ui.displayProfile(artist);
+            };
+            artists.getArtists().then(artists => { ui.getArt(artists); })
+        })
+    </script>
+</body>

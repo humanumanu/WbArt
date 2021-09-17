@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../index/styling.css">
+    <link rel="stylesheet" href="style_art.css">
+    <script src="../app.js" defer></script>
+    <script src="../data_json.js"></script>
+    <title>Item</title>
+</head>
+
+<body>
+<!-- nav bar-->
+<div id="hide-bar" class="hidden">
+    <div id="side-bar">
+        <div id="bar-center" class="hidden">
+            <a href="../index/content.html" class="side-gallery">Gallery</a>
+            <a href="../Artists/index.html" class="side-artists">Artists</a>
+            <a href="../About us/index.html" class="side-help">About</a>
+            <a href="../Cart/index.html" class="cart-button">Cart</a>
+            <a href="../Sign Up/index.html" class="side-signup">Signup</a>
+            <a href="../Log In/index.html" class="side-login">Login</a>
+        </div>
+    </div>
+    <div id="side-overlay"></div>
+</div>
+<nav class="navigation">
+    <nav class="nav-center">
+        <a href="../index/content.html">
+            <img src="../images/logo.png" alt="">
+        </a>
+        <ul>
+            <li><a href="../index/content.html">Gallery</a></li>
+            <li><a href="../Artists/index.html">Artists</a></li>
+            <li><a href="../About us/index.html">About</a></li>
+            <li class='cart-button'><a href="../Cart/index.html">Cart</a></li>
+            <li id="sep"></li>
+            <li><a href="../Sign Up/index.html">Sign Up</a></li>
+            <li><a href="../Log In/index.html">Login</a></li>
+        </ul>
+        <div id="drop-bar">
+            <div class="hover"></div>
+            <img src="../images/arts/icon/drop.jpg">
+        </div>
+        </div>
+    </nav>
+</nav>
+<!-- end of nav bar-->
+
+    <!-- Art info -->
+    <section class="main">
+        <div class="art_center">
+        </div>
+    </section>
+    <footer class="footer">
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const ui = new UI();
+            const artists = new Artists();
+            let art = sessionStorage.getItem("selected_art");
+            let artist = sessionStorage.getItem("selected_artist");
+            let mycart = localStorage.getItem("cart")
+            if (mycart == null){
+            } else {
+                mycart = JSON.parse(mycart)
+                mycart.forEach(item => {
+                    cart.push(item)
+                })
+            }
+            art = JSON.parse(art);
+            artist = JSON.parse(artist);
+            ui.displayArt(art,artist);
+            artists.getArtists().then(artists => {ui.getProfile(artists);
+            }).then(()=>{
+                ui.toCart(art,artist);
+            });
+        })
+    </script>
+
+</body>
+
+</html>
